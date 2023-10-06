@@ -1,0 +1,66 @@
+body,
+header,
+nav a:hover,
+.book, .join,
+.book:hover, .join:hover,
+.msg,
+footer {
+    background-color: #fcfbfb; 
+}
+#background {
+    background-color: #d9c2a3;
+}
+header, footer, .msg {
+    background-color:rgba(20,30,13, .7);
+    color: #fcfbfb;
+}
+nav a,
+.book,
+footer a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#background {
+    height: 725px;
+}
+.icon {
+    width: 80px;
+}
+footer p {
+    font-size: 1.2em;
+} 
+footer p a:hover {
+    text-decoration: underline;
+}
+footer, footer a {
+    color: #d9c2a3;
+}
+
+#hero, .rivers-card, .camping-card, .rapids-card, .msg {
+    text-align: center;
+} 
+
+
+#hero-box {
+    width: auto;
+}
+.join {
+    text-align: center;
+    background-color: #d9c2a3;
+    color: #000;
+}
+
+.mountains{
+    text-align: left;
+    margin: 1px;
+}
