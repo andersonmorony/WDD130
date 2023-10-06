@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 60%;
+    margin: 0 auto;
+    background-color: palevioletred;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+header h5 {
+    margin-bottom: 20px;
+}
+
+header h1{
+    margin-bottom: 80px;
+}
+
+main img {
+    width: 300px;
+}
+
+main ol {
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+main h2 {
+    padding-top: 40px;
+    font-size: 36px;
+    width: 400px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+main p {
+    font-weight: 600;
+}
+
+main ol li {
+    font-weight: 700;
+}
