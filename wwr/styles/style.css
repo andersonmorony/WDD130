@@ -1,19 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
 body,
 header,
 nav a:hover,
-.book, .join,
-.book:hover, .join:hover,
+.book,
+.join,
+.book:hover,
+.join:hover,
 .msg,
 footer {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
 }
+
 #background {
     background-color: #d9c2a3;
 }
-header, footer, .msg {
-    background-color:rgba(20,30,13, .7);
+
+header,
+footer,
+.msg {
+    background-color: rgba(20, 30, 13, .7);
     color: #fcfbfb;
 }
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.book,
+.join {
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+
 nav a,
 .book,
 footer a {
@@ -21,6 +73,7 @@ footer a {
     color: #fcfbfb;
     text-decoration: none;
 }
+
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
@@ -30,37 +83,85 @@ nav a:hover {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 #background {
     height: 725px;
 }
+
 .icon {
     width: 80px;
 }
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px
+}
 footer p {
     font-size: 1.2em;
-} 
+}
+
 footer p a:hover {
     text-decoration: underline;
 }
-footer, footer a {
+
+footer,
+footer a {
     color: #d9c2a3;
 }
 
-#hero, .rivers-card, .camping-card, .rapids-card, .msg {
+#hero,
+.rivers-card,
+.camping-card,
+.rapids-card,
+.msg {
     text-align: center;
-} 
+}
 
 
 #hero-box {
     width: auto;
 }
+
 .join {
+    text-decoration: none;
     text-align: center;
     background-color: #d9c2a3;
     color: #000;
 }
 
-.mountains{
+.mountains {
     text-align: left;
     margin: 1px;
+}
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.book,
+.join {
+    padding: 15px 30px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+}
+.card-img  {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
