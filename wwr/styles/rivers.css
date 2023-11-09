@@ -1,0 +1,38 @@
+main{
+    margin: 0 auto;
+}
+#title{
+    text-align: center;
+    padding: 80px 0;
+    
+}
+.river{
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+.river .river-content
+{
+    padding: 0 40px;
+}
+.river-inverse
+{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    margin-bottom: 60px;
+}
+.river-inverse .river-content{
+    margin-right: 40px;
+}
+
+.river-content h4{
+    margin-top: 0;
+    color: #ac9371;
+}
+#btn-rivers{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
