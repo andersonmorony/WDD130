@@ -76,7 +76,7 @@ header nav ul li a{
 
 #content
 {
-    height: 80vh;
+    min-height: 80vh;
     width: 80%;
     margin: 0 auto;
 }
