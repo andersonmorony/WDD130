@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/contactus.css">
 </head>
 <body>
     <header>
@@ -28,22 +29,28 @@
         </div>
     </header>
     <main id="content">
-        <h1>Contact Us</h1>
         <section id="header">
+            <h1 class="title">Contact Us</h1>
             <p>Unlock Your Solution: Share Your Needs, Receive a Tailored Proposal!</p>
         </section>
-        <section>
+        <section id="form">
             <form action="">
-                <label for="name">Full Name</label>
-                <input id="name" name="name" type="text">
-                <label for="email">E-mail</label>
-                <input id="email" name="email" type="email">
-                <label for="needs">What's your need?</label>
-                <textarea name="needs" id="needs" cols="30" rows="10"></textarea>
-                <button type="submit">Send</button>
+                <div>
+                    <label for="name">Full Name</label>
+                    <input id="name" required name="name" type="text">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input id="email" required name="email" type="email">
+                </div>
+                <div>
+                    <label for="needs">What's your need?</label>
+                    <textarea name="needs" required id="needs" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-submit">Submit</button>
             </form>
             <figure>
-                <img src="images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg" alt="">
+                <img src="images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg" alt="contact">
             </figure>
         </section>
     </main>

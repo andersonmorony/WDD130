@@ -1,0 +1,33 @@
+#header {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#form form {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 80px 80px 200px 40px;
+    justify-items: center;
+}
+#form form div {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 20px 40px;
+}
+#form form div input {
+    width: 100%;
+}
+#form form div:nth-child(3n) {
+    display: grid;
+    grid-template-rows: 20px 120px;
+}
+
+.btn-submit {
+    width: 300px;
+    text-align: center;
+}

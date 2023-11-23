@@ -12,7 +12,7 @@ Fonts are separated by a | */
 
     /* change the values below to your chosen font(s) */
     --heading-font: 'Inclusive Sans';
-    --paragraph-font: 'Roboto', 'Nunito', Helvetica, sans-serif;
+    --paragraph-font: 'Inclusive Sans', 'Roboto', 'Nunito', Helvetica, sans-serif;
 
     /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: #1E395D;
@@ -31,7 +31,38 @@ Fonts are separated by a | */
 }
 
 * {
-    font-family: var(--heading-font);
+    font-family: var(--paragraph-font);
+}
+
+p{
+    font-size: 18px;
+}
+h1, h2, h3, h4 {
+    color: var(--paragraph-background-color);
+}
+h1.title {
+    font-size: 2.4em;
+}
+.btn-primary
+{
+    width: 230px;
+    height: 40px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: var(--nav-hover-link-color);
+    background: var(--headline-color-on-white);
+    border: none;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    text-decoration: none;
+    justify-items: center;
+}
+.btn-primary:hover
+{
+    background-color: var(--nav-background-color);
+    color: var(--headline-color-on-white);
+    transition: .3s;
 }
 
 body {
@@ -83,18 +114,114 @@ header nav ul li a{
 
 /* Main */
 #content #major{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    margin-bottom: 100px;
 }
+#major h1 {
+    font-size: 2.4em;
+}
+
 #major .content{
     max-width: 600px;
     padding-right: 60px;
 }
-#major .content-image{
-    box-shadow: 4px 3px 24px rgba(0,0,0, 0.3);
+#major .content-image img{
+    box-shadow: 9px 2px 20px 0px rgba(0,0,0, 0.2)
 }
 
+/* information */
+
+
+#information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+#information #image-1 {
+    background-size: cover;
+    background-image: url('../images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg');
+    background-position-y: 30%;
+}
+#information #image-2 {
+    background-size: cover;
+    background-image: url('../images/aBLcRE3g.jpg');
+}
+
+#information #image-3 {
+    background-size: cover;
+    background-position-y: 84%;
+    background-image: url('../images/_0c086d52-f019-4e87-b8d6-eb9e6bc18283.jpg');
+}
+
+#information article:nth-child(2)
+{
+    margin: 0 20px;
+}
+#information article {
+    min-width: 400px;
+    display: grid;
+    grid-template-rows: 200px 1fr 40px;
+    justify-items: center;
+}
+#information article p{
+    padding: 10px 10px;
+}
+#information article button{
+    padding: 10px 10px;
+}
+#information figure {
+    margin: 0;
+} 
+#information figure{
+    width: 100%;
+    height: 200px;
+}
+
+
+/* Slide */
+
+#slide {
+    background-image: url('../images/mission.jpg');
+    background-size: cover;
+    background-position-y: 70%;
+    height: 500px;
+}
+#slide div {
+    background: #1e395dbf;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+#slide div h1 {
+    color: #fff;
+    padding: 40px;
+    width: 70%;
+    font-size: 1.9em;
+}
+#slide div h1>strong
+{
+    color: #2ce93f;
+}
+
+/* excellence */
+
+#excellence {
+    margin: 70px 0px;
+}
+#excellence h1 {
+    width: 55%;
+}
+#excellence p {
+    margin: 20px 0;
+}
 
 /* Footer */
 footer {
