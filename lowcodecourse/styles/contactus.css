@@ -27,7 +27,47 @@
     grid-template-rows: 20px 120px;
 }
 
+figure img {
+    min-width: 420px;
+    width: 100%;
+}
+
 .btn-submit {
     width: 300px;
     text-align: center;
+}
+@media (max-width: 900px){
+    #form {
+        grid-template-columns: 1fr;
+        margin-bottom: 70px;
+    }
+    figure {
+        grid-row-start: 1;
+    }
+}
+
+@media (max-width: 430px){
+    #form {
+        grid-template-columns: 100%;
+    }
+    figure img {
+        display: none;
+    }
+    footer nav, footer nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    #excellence h1 {
+        width: 100%;
+    }
+    .btn-primary {
+        width: auto;
+        height: auto;
+    }
+    header .content, footer .content {
+        height: auto;
+    }
 }
